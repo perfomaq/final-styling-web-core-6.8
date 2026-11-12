@@ -143,10 +143,19 @@ img {
   }
   .info__content {
     flex: 1;
+  }
+  .info__text {
     line-height: 20px;
   }
   .photo {
     flex: 1;
     margin: 0;
+  }
+  .photo img {
+    margin-top: 32px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+
   }
 }
